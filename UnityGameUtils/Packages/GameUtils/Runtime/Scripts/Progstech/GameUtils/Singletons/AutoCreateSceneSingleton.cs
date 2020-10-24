@@ -39,5 +39,13 @@ namespace Progstech.GameUtils.Singletons
         }
 
         protected abstract void PostAwake();
+        
+        protected virtual void OnDestroy()
+        {
+            if (_instance == this)
+            {
+                _instance = null;
+            }
+        }
     }
 }
