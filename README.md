@@ -1,4 +1,4 @@
-# unity_game_utils_project
+# Unity Utils
 
 # Install
 ```
